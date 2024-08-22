@@ -60,15 +60,15 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
+        LOGGER(__name__).info(f"ɴᴀʏʀᴀ sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
 
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TheShivanshu")
-                await self.one.join_chat("TheChampuClub")
-                await self.one.join_chat("akaChampu")
-                await self.one.join_chat("TheChampu")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("ll_ZIDDI_SHAYAR_ll")
+                await self.one.join_chat("l_TERI_MERI_BAATE_l")
+                await self.one.join_chat("Shayarmusic_bot")
 
             except:
                 pass
@@ -90,15 +90,15 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs {self.one.me.first_name}")
+            LOGGER(__name__).info(f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs {self.one.me.first_name}")
 
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("TheShivanshu")
-                await self.two.join_chat("TheChampuClub")
-                await self.two.join_chat("akaChampu")
-                await self.two.join_chat("TheChampu")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("ll_ZIDDI_SHAYAR_ll")
+                await self.one.join_chat("l_TERI_MERI_BAATE_l")
+                await self.one.join_chat("Shayarmusic_bot")
             except:
                 pass
             assistants.append(2)
@@ -114,15 +114,15 @@ class Userbot(Client):
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
             assistantids.append(self.two.id)
-            LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ ᴀs {self.two.me.first_name}")
+            LOGGER(__name__).info(f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ ᴀs {self.two.me.first_name}")
 
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("TheShivanshu")
-                await self.three.join_chat("TheChampuClub")
-                await self.three.join_chat("akaChampu")
-                await self.three.join_chat("TheChampu")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("ll_ZIDDI_SHAYAR_ll")
+                await self.one.join_chat("l_TERI_MERI_BAATE_l")
+                await self.one.join_chat("Shayarmusic_bot")
             except:
                 pass
             assistants.append(3)
@@ -138,16 +138,16 @@ class Userbot(Client):
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
             LOGGER(__name__).info(
-                f"ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.three.me.first_name}"
+                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.three.me.first_name}"
             )
 
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TheShivanshu")
-                await self.four.join_chat("TheChampuClub")
-                await self.four.join_chat("akaChampu")
-                await self.four.join_chat("TheChampu")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("ll_ZIDDI_SHAYAR_ll")
+                await self.one.join_chat("l_TERI_MERI_BAATE_l")
+                await self.one.join_chat("Shayarmusic_bot")
             except:
                 pass
             assistants.append(4)
@@ -163,16 +163,16 @@ class Userbot(Client):
             self.four.username = self.four.me.username
             assistantids.append(self.four.id)
             LOGGER(__name__).info(
-                f"ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ ᴀs {self.four.me.first_name}"
+                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ ᴀs {self.four.me.first_name}"
             )
 
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TheShivanshu")
-                await self.five.join_chat("TheChampuClub")
-                await self.five.join_chat("akaChampu")
-                await self.five.join_chat("TheChampu")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("ll_ZIDDI_SHAYAR_ll")
+                await self.one.join_chat("l_TERI_MERI_BAATE_l")
+                await self.one.join_chat("Shayarmusic_bot")
             except:
                 pass
             assistants.append(5)
@@ -188,11 +188,11 @@ class Userbot(Client):
             self.five.username = self.five.me.username
             assistantids.append(self.five.id)
             LOGGER(__name__).info(
-                f"ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.five.me.first_name}"
+                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.five.me.first_name}"
             )
 
     async def stop(self):
-        LOGGER(__name__).info(f"sᴛᴏᴘᴘɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
+        LOGGER(__name__).info(f"ɴᴀʏʀᴀ sᴛᴏᴘᴘɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
         try:
             if config.STRING1:
                 await self.one.stop()
