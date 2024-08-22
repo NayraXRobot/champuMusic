@@ -2,7 +2,7 @@
     「 𝙉𝙖𝙮𝙧𝙖 ✗ 𝙍𝙤𝙗𝙤𝙩 」</h2>
 
 <p align="center">
-  <img src="https://github.com/TheChampu/ChampuMusic/blob/main/TheChampu.gif">
+  <img src="https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg">
 </p>
 </p>
  <h3></h3>
