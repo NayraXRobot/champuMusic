@@ -61,7 +61,7 @@ async def init():
     await userbot.stop()
 
     LOGGER("ChampuXMusic").info(
-        " sᴛᴏᴘᴘɪɴɢ ᴄʜᴀᴍᴘᴜ ᴍᴜsɪᴄ ʙᴏᴛ..."
+        " sᴛᴏᴘᴘɪɴɢ ɴᴀʏʀᴀ ᴍᴜsɪᴄ ʙᴏᴛ..."
     )
 
 
