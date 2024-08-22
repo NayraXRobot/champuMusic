@@ -60,7 +60,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"ɴᴀʏʀᴀ sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
+        LOGGER(__name__).info(f"sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
 
         if config.STRING1:
             await self.one.start()
@@ -90,7 +90,7 @@ class Userbot(Client):
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs {self.one.me.first_name}")
+            LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ ᴀs {self.one.me.first_name}")
 
         if config.STRING2:
             await self.two.start()
@@ -114,7 +114,7 @@ class Userbot(Client):
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
             assistantids.append(self.two.id)
-            LOGGER(__name__).info(f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ ᴀs {self.two.me.first_name}")
+            LOGGER(__name__).info(f"ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ ᴀs {self.two.me.first_name}")
 
         if config.STRING3:
             await self.three.start()
@@ -138,7 +138,7 @@ class Userbot(Client):
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
             LOGGER(__name__).info(
-                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.three.me.first_name}"
+                f"ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.three.me.first_name}"
             )
 
         if config.STRING4:
@@ -163,7 +163,7 @@ class Userbot(Client):
             self.four.username = self.four.me.username
             assistantids.append(self.four.id)
             LOGGER(__name__).info(
-                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ ᴀs {self.four.me.first_name}"
+                f"ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ ᴀs {self.four.me.first_name}"
             )
 
         if config.STRING5:
@@ -188,11 +188,11 @@ class Userbot(Client):
             self.five.username = self.five.me.username
             assistantids.append(self.five.id)
             LOGGER(__name__).info(
-                f"ɴᴀʏʀᴀ ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.five.me.first_name}"
+                f"ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.five.me.first_name}"
             )
 
     async def stop(self):
-        LOGGER(__name__).info(f"ɴᴀʏʀᴀ sᴛᴏᴘᴘɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
+        LOGGER(__name__).info(f"sᴛᴏᴘᴘɪɴɢ ᴀssɪsᴛᴀɴᴛs...")
         try:
             if config.STRING1:
                 await self.one.stop()
