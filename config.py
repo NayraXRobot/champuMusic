@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 #Put your bot username without @ 
-BOT_USERNAME = getenv("BOT_USERNAME", "TheChampuBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "shayarmusicbot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -37,7 +37,7 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001699199963"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002035485289"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -50,7 +50,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ChampuXD/ChampuMusic",
+    "https://github.com/NayraXRobot/champuMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheChampu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/akaChampu")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AboutshayarAkhawab")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/addlist/oNS1XEtWNYpjZWVl")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -123,21 +123,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/55ea468498cfb7881c28b.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/15fde98db07a70beb6f4a.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/8ff7a386f161aea9ed5fb.jpg"
-STATS_IMG_URL = "https://graph.org/file/2dcb664a9c0ba9d9d80f6.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/b13a16734bab174f58482.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/5938774f48c1f019c73f7.jpg"
-STREAM_IMG_URL = "https://graph.org/file/61b2679bd92a3ab646153.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/7aed421dbfbad17f0469f.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/7e177561e54188f35fa03.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/42739cf35a58f1eda76f0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/9553b762fd6a2aaf7ab0a.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/08b0f34c8012e2e231978.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/09773b9c5cfca4f63b31d.jpg"
 
 
 def time_to_seconds(time):
